@@ -16,6 +16,7 @@ _Guia rápido de referência com links oficiais sobre o Claude Cowork, Claude Co
 - [🛠️ Ferramentas](#️-ferramentas)
 - [📖 Recursos & Aprendizado](#-recursos--aprendizado)
 - [🎬 Demo do Claude Cowork](#-demo-do-claude-cowork)
+- [🎁 Convite](#-convite)
 
 ---
 
@@ -74,6 +75,14 @@ _Guia rápido de referência com links oficiais sobre o Claude Cowork, Claude Co
 > Material complementar com a demonstração prática do Claude Cowork.
 
 - 📄 **Acesse a demo completa** → [ClaudeCoWork-demo.md](ClaudeCoWork-demo.md)
+
+---
+
+## 🎁 Convite
+
+> Uma semana grátis no uso do Claude Cowork:
+>
+> 🔗 [claude.ai/referral/pm26MvTT0Q](https://claude.ai/referral/pm26MvTT0Q?s=cowork&v=apps)
 
 ---
 

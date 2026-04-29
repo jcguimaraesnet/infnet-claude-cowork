@@ -18,7 +18,7 @@ _Roteiro de demonstração com prompts reutilizáveis para automação de corre�
   - [Passo 2.1 — Criar skill de descompactar](#passo-21--criar-skill-de-descompactar)
   - [Passo 3 — Criar relatório Excel](#passo-3--criar-relatório-excel)
   - [Passo 3.1 — Criar skill de relatório](#passo-31--criar-skill-de-relatório)
-  - [Passos 1, 2 e 3 — Reutilizando skills](#passos-1-2-e-3--reutilizando-skills)
+  - [Passo 4 (corresponde aos passos 1, 2 e 3, reutilizando skills)](#passo-4-corresponde-aos-passos-1-2-e-3-reutilizando-skills)
   - [Passo 5 — Criar skill de correção de rubricas](#passo-5--criar-skill-de-correção-de-rubricas)
   - [Passo 6 — Competência 1](#passo-6--competência-1)
   - [Passo 7 — Competência 2](#passo-7--competência-2)
@@ -26,7 +26,7 @@ _Roteiro de demonstração com prompts reutilizáveis para automação de corre�
   - [Passo 9 — Competência 4](#passo-9--competência-4)
   - [Passo 10 — Competência 5](#passo-10--competência-5)
   - [🌐 Conector: Claude in Chrome](#-conector-claude-in-chrome)
-  - [🎁 Convite](#-convite)
+  - [📦 Skills geradas](#-skills-geradas)
 
 ---
 
@@ -268,7 +268,7 @@ Crie essa skill sem rodar testes, indo diretamente para o empacotamento.
 
 ---
 
-## Passos 1, 2 e 3 — Reutilizando skills
+## Passo 4 (corresponde aos passos 1, 2 e 3, reutilizando skills)
 
 > 🔁 Executa o pipeline completo usando as três skills criadas.
 
@@ -374,12 +374,22 @@ Você deve atualizar o relatório Excel na pasta raiz em cada aba (por aluno), a
 
 ````markdown
 Use a skill /infnet-moodle-corrigir-rubricas
+````
 
-### Primeiro parâmetro (nome da competência)
+</details>
+
+<details>
+<summary><b>📝 Parâmetros solicitados após o prompt</b></summary>
+
+**1️⃣ Nome da competência:**
+
+```text
 Competência 1
+```
 
-### Segundo parâmetro (rubricas)
+**2️⃣ Rubricas:**
 
+````markdown
 # Rubrica 1:
 - No exercício 1, verifique se a classe Program.cs contém um Console.WriteLine que imprime uma frase como "Olá, meu nome é [Nome do Aluno]".
 # Rubrica 2:
@@ -404,12 +414,22 @@ Competência 1
 
 ````markdown
 Use a skill /infnet-moodle-corrigir-rubricas
+````
 
-### Primeiro parâmetro (nome da competência)
+</details>
+
+<details>
+<summary><b>📝 Parâmetros solicitados após o prompt</b></summary>
+
+**1️⃣ Nome da competência:**
+
+```text
 Competência 2
+```
 
-### Segundo parâmetro (rubricas)
+**2️⃣ Rubricas:**
 
+````markdown
 # Rubrica 1:
 - No exercício 2, verifique se o programa recebe um nome completo e consegue deslocar cada letra duas posições para frente no alfabeto? Exemplo: Entrada: "Carlos Silva" e Saída: "Ectnquu Ukngxc"
 - No exercício 2, verifique se o programa está ignorando espaços e acentos no deslocamento.
@@ -440,11 +460,22 @@ Competência 2
 
 ````markdown
 Use a skill /infnet-moodle-corrigir-rubricas
+````
 
-### Primeiro parâmetro (nome da competência)
+</details>
+
+<details>
+<summary><b>📝 Parâmetros solicitados após o prompt</b></summary>
+
+**1️⃣ Nome da competência:**
+
+```text
 Competência 3
+```
 
-### Segundo parâmetro (rubricas)
+**2️⃣ Rubricas:**
+
+````markdown
 # Rubrica 1:
 - No exercício 6, verifique se o programa faz referencia a uma classe Aluno.
 # Rubrica 2:
@@ -468,11 +499,22 @@ Competência 3
 
 ````markdown
 Use a skill /infnet-moodle-corrigir-rubricas
+````
 
-### Primeiro parâmetro (nome da competência)
+</details>
+
+<details>
+<summary><b>📝 Parâmetros solicitados após o prompt</b></summary>
+
+**1️⃣ Nome da competência:**
+
+```text
 Competência 4
+```
 
-### Segundo parâmetro (rubricas)
+**2️⃣ Rubricas:**
+
+````markdown
 # Rubrica 1:
 - No exercício 7, verifique se o programa faz referencia a uma classe parecida com o nome "ContaBancaria"?
 # Rubrica 2:
@@ -498,11 +540,22 @@ Competência 4
 
 ````markdown
 Use a skill /infnet-moodle-corrigir-rubricas
+````
 
-### Primeiro parâmetro (nome da competência)
+</details>
+
+<details>
+<summary><b>📝 Parâmetros solicitados após o prompt</b></summary>
+
+**1️⃣ Nome da competência:**
+
+```text
 Competência 5
+```
 
-### Segundo parâmetro (rubricas)
+**2️⃣ Rubricas:**
+
+````markdown
 # Rubrica 1:
 - No exercício 9, verifique se existe uma versão (a) usando array/coleção para armazenar os dados, e outra versão (b) armazenando os dados em arquivo.
 - No exercício 9, verifique se o programa faz referencia a uma classe parecida com o nome "Produto"?
@@ -527,6 +580,10 @@ Competência 5
 
 > 🔗 Atualiza as notas diretamente no Moodle usando o conector do Chrome.
 
+> ⚠️ **Pré-requisitos:**
+> - Conector **Claude in Chrome** habilitado no Claude Cowork.
+> - Extensão do **Claude** instalada no navegador **Chrome** (ou **Edge**).
+
 <details>
 <summary><b>📋 Ver prompt</b></summary>
 
@@ -545,11 +602,18 @@ Faça os seguintes passos para atualizar as notas do aluno "Arthur Costa Camacho
 
 ---
 
-## 🎁 Convite
 
-> Uma semana grátis no uso do Claude Cowork:
->
-> 🔗 [claude.ai/referral/pm26MvTT0Q](https://claude.ai/referral/pm26MvTT0Q?s=cowork&v=apps)
+## 📦 Skills geradas
+
+> Baixe abaixo as skills criadas e utilizadas durante a demonstração.
+
+| 🧩 Skill | Descrição | Download |
+|---------|-----------|----------|
+| `infnet-moodle-renomear-pastas` | Renomeia pastas baixadas do Moodle, mantendo apenas o nome do aluno. | [⬇️ Baixar](skills/infnet-moodle-renomear-pastas.skill) |
+| `infnet-moodle-descompactar-arquivos` | Descompacta arquivos `.zip` e `.rar` dentro das subpastas dos alunos. | [⬇️ Baixar](skills/infnet-moodle-descompactar-arquivos.skill) |
+| `infnet-moodle-criar-relatorio` | Cria o relatório `relatorio.xlsx` com uma aba por aluno e cabeçalhos padronizados. | [⬇️ Baixar](skills/infnet-moodle-criar-relatorio.skill) |
+| `infnet-moodle-corrigir-rubricas` | Avalia trabalhos `.NET C#` por rubrica e atualiza o relatório de notas. | [⬇️ Baixar](skills/infnet-moodle-corrigir-rubricas.skill) |
+| `rar-extractor` | Skill auxiliar usada para extrair arquivos no formato `.rar`. | [⬇️ Baixar](skills/rar-extractor.skill) |
 
 ---
 
@@ -558,3 +622,5 @@ Faça os seguintes passos para atualizar as notas do aluno "Arthur Costa Camacho
 _Demo do uso do Claude Cowork preparada para o **Infnet**_ 🎓
 
 </div>
+
+---
