@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:/repos/infnet/infnet-claude-cowork\" status)",
+      "Bash(git -C \"c:/repos/infnet/infnet-claude-cowork\" branch -a)",
+      "Bash(git -C \"c:/repos/infnet/infnet-claude-cowork\" log --oneline -5)"
+    ]
+  }
+}
