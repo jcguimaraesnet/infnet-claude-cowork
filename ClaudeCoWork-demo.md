@@ -10,21 +10,23 @@ _Roteiro de demonstração com prompts reutilizáveis para automação de corre�
 
 ## 📚 Sumário
 
-- [Passo 1 — Renomear pastas](#passo-1--renomear-pastas)
-- [Passo 1.1 — Criar skill de renomear](#passo-11--criar-skill-de-renomear)
-- [Passo 2 — Descompactar arquivos](#passo-2--descompactar-arquivos)
-- [Passo 2.1 — Criar skill de descompactar](#passo-21--criar-skill-de-descompactar)
-- [Passo 3 — Criar relatório Excel](#passo-3--criar-relatório-excel)
-- [Passo 3.1 — Criar skill de relatório](#passo-31--criar-skill-de-relatório)
-- [Passos 1, 2 e 3 — Reutilizando skills](#passos-1-2-e-3--reutilizando-skills)
-- [Passo 5 — Criar skill de correção de rubricas](#passo-5--criar-skill-de-correção-de-rubricas)
-- [Passo 6 — Competência 1](#passo-6--competência-1)
-- [Passo 7 — Competência 2](#passo-7--competência-2)
-- [Passo 8 — Competência 3](#passo-8--competência-3)
-- [Passo 9 — Competência 4](#passo-9--competência-4)
-- [Passo 10 — Competência 5](#passo-10--competência-5)
-- [🌐 Conector: Claude in Chrome](#-conector-claude-in-chrome)
-- [🎁 Convite](#-convite)
+- [🎬 Demo — Claude Cowork](#-demo--claude-cowork)
+  - [📚 Sumário](#-sumário)
+  - [Passo 1 — Renomear pastas](#passo-1--renomear-pastas)
+  - [Passo 1.1 — Criar skill de renomear](#passo-11--criar-skill-de-renomear)
+  - [Passo 2 — Descompactar arquivos](#passo-2--descompactar-arquivos)
+  - [Passo 2.1 — Criar skill de descompactar](#passo-21--criar-skill-de-descompactar)
+  - [Passo 3 — Criar relatório Excel](#passo-3--criar-relatório-excel)
+  - [Passo 3.1 — Criar skill de relatório](#passo-31--criar-skill-de-relatório)
+  - [Passos 1, 2 e 3 — Reutilizando skills](#passos-1-2-e-3--reutilizando-skills)
+  - [Passo 5 — Criar skill de correção de rubricas](#passo-5--criar-skill-de-correção-de-rubricas)
+  - [Passo 6 — Competência 1](#passo-6--competência-1)
+  - [Passo 7 — Competência 2](#passo-7--competência-2)
+  - [Passo 8 — Competência 3](#passo-8--competência-3)
+  - [Passo 9 — Competência 4](#passo-9--competência-4)
+  - [Passo 10 — Competência 5](#passo-10--competência-5)
+  - [🌐 Conector: Claude in Chrome](#-conector-claude-in-chrome)
+  - [🎁 Convite](#-convite)
 
 ---
 
@@ -553,6 +555,6 @@ Faça os seguintes passos para atualizar as notas do aluno "Arthur Costa Camacho
 
 <div align="center">
 
-_Demo preparada para o curso **Infnet — Claude Cowork**_ 🎓
+_Demo do uso do Claude Cowork preparada para o **Infnet**_ 🎓
 
 </div>
